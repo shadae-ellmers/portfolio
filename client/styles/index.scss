@@ -7,5 +7,9 @@ body {
   font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-
-
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 95vw,
+}
