@@ -1,13 +1,57 @@
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 function Nav() {
   return (
-    <>
-      <Link to="/">Home</Link>
-      <Link to="/projects">Projects</Link>
-      <Link to="/about">About</Link>
-      <Link to="/contact">Contact</Link>
-    </>
+    <div className="nav-container">
+      <NavLink
+        to="/"
+        style={({ isActive }) =>
+          isActive
+            ? {
+                textDecoration: 'underline',
+              }
+            : {}
+        }
+      >
+        Home
+      </NavLink>
+      <NavLink
+        to="/projects"
+        style={({ isActive }) =>
+          isActive
+            ? {
+                textDecoration: 'underline',
+              }
+            : {}
+        }
+      >
+        Projects
+      </NavLink>
+      <NavLink
+        to="/about"
+        style={({ isActive }) =>
+          isActive
+            ? {
+                textDecoration: 'underline',
+              }
+            : {}
+        }
+      >
+        About
+      </NavLink>
+      <NavLink
+        to="/contact"
+        style={({ isActive }) =>
+          isActive
+            ? {
+                textDecoration: 'underline',
+              }
+            : {}
+        }
+      >
+        Contact
+      </NavLink>
+    </div>
   )
 }
 
