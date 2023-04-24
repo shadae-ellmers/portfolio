@@ -1,0 +1,34 @@
+.home {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 20px;
+  background-color: #ccb42c;
+  overflow: hidden;
+
+  .text {
+    text-align: left;
+    align-self: center;
+    padding-bottom: 20px,
+  }
+
+  h2 {
+    @include heavy-font;
+    color: $darkgreen;
+    font-size: 50px;
+  }
+
+  p {
+    @include light-font;
+    color: $grey;
+    font-size: 20px;
+  }
+
+  a {
+    @include light-font;
+    text-decoration: none;
+    color: $grey;
+    font-size: 20px;
+  }
+
+}

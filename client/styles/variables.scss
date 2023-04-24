@@ -8,7 +8,13 @@ $grey: rgb(46, 46, 46);
 
 // mixins
 
-@mixin header-flex() {
-  display: flex;
-  flex-direction: row;
+@mixin heavy-font() {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+@mixin light-font() {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 400;
 }

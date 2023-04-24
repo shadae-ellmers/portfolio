@@ -1,5 +1,6 @@
 @import './variables.scss';
 @import './header.scss';
+@import './home.scss';
 
 //fonts
 //font-family: 'IBM Plex Sans', sans-serif;
@@ -11,19 +12,4 @@ body {
   margin: 0;
   width: 100vw;
   background-color: #ccb42c;
-}
-
-.home {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  padding: 20px;
-  background-color: #ccb42c;
-  overflow: hidden;
-
-  .text {
-    text-align: left;
-    align-self: center;
-  }
-
 }
