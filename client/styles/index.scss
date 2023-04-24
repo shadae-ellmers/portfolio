@@ -1,26 +1,19 @@
+@import './header.scss';
 
 // colours
 // light green -> #ccb42c
 // dark green -> #1c5c34
 // creamish green -> #fcec9f
 
+//fonts
+//font-family: 'IBM Plex Sans', sans-serif;
+
 body {
   position: absolute;
   top: 0;
   left: 0;
   margin: 0;
-  font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
   width: 100vw;
-  background-color: #ccb42c;
-
-}
-
-header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  // width: 97vw;
-  padding: 20px;
   background-color: #ccb42c;
 }
 
