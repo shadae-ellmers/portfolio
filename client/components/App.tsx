@@ -1,6 +1,7 @@
 import { Route, Routes } from 'react-router-dom'
 import Home from './Home'
 import Nav from './Nav'
+import Projects from './Projects'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <section className="main">
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/projects" element={<Projects />} />
         </Routes>
       </section>
     </>
