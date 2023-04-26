@@ -4,14 +4,14 @@ function Projects() {
   return (
     <div className="projects">
       <div className="section-text">
-        <h2>Here are some picks for projects I&apos;ve completed →</h2>
+        <h2>Here are some projects I&apos;ve completed →</h2>
       </div>
       <div className="section">
         <img
           src="../../images/pingpong/pingpong-thumbnail.png"
           alt="placeholder"
         />
-        <div className="section">
+        <div className="text-container">
           <h3>PingPong</h3>
           <p>
             Send out a notification to all your friends when you want to
@@ -24,10 +24,16 @@ function Projects() {
         </div>
       </div>
       <div className="section">
-        <img src="../../images/placeholder.jpeg" alt="placeholder" />
-        <div className="section">
+        <img
+          src="../../images/astrology/astrology-thumbnail.jpeg"
+          alt="placeholder"
+        />
+        <div className="text-container">
           <h3>Astrology</h3>
-          <p>aaaaaa</p>
+          <p>
+            Interpret your natal birth chart and add your friends charts to
+            compare.
+          </p>
           <Link to="/astrology">
             <a href="/astrology">Read more →</a>
           </Link>
@@ -35,7 +41,7 @@ function Projects() {
       </div>
       <div className="section">
         <img src="../../images/placeholder.jpeg" alt="placeholder" />
-        <div className="section">
+        <div className="text-container">
           <h3>NotMD</h3>
           <p>aaaaaa</p>
           <Link to="/notmd">
@@ -45,7 +51,7 @@ function Projects() {
       </div>
       <div className="section">
         <img src="../../images/placeholder.jpeg" alt="placeholder" />
-        <div className="section">
+        <div>
           <h3>Not So Lonely Christmas</h3>
           <p>aaaaaa</p>
           <Link to="/notlonelyxmas">

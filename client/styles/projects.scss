@@ -28,7 +28,18 @@
 
   img {
     width: 18vw;
-    height: 25vh;
+    height: 20vh;
+    position: absolute;
+  }
+
+  .text-container {
+    width: 18vw;
+    height: 39vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
   }
 
   h3 {
