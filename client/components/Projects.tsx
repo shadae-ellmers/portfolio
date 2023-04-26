@@ -14,9 +14,9 @@ function Projects() {
         <div className="text-container">
           <h3>PingPong</h3>
           <p>
-            Send out a notification to all your friends when you want to
-            spontaneously hang out - a simple pager app to kill your group chat
-            and connect in person.
+            Send a notification to your friends when you want to spontaneously
+            hang out - a simple pager app to kill your group chat and connect in
+            person.
           </p>
           <Link to="/pingpong">
             <a href="/pingpong">Read more →</a>
@@ -40,22 +40,15 @@ function Projects() {
         </div>
       </div>
       <div className="section">
-        <img src="../../images/placeholder.jpeg" alt="placeholder" />
+        <img src="../../images/book/books.webp" alt="placeholder" />
         <div className="text-container">
-          <h3>NotMD</h3>
-          <p>aaaaaa</p>
-          <Link to="/notmd">
-            <a href="/notmd">Read more →</a>
-          </Link>
-        </div>
-      </div>
-      <div className="section">
-        <img src="../../images/placeholder.jpeg" alt="placeholder" />
-        <div>
-          <h3>Not So Lonely Christmas</h3>
-          <p>aaaaaa</p>
-          <Link to="/notlonelyxmas">
-            <a href="/notlonelyxmas">Read more →</a>
+          <h3>Book Tracker</h3>
+          <p>
+            A personal site for me to track the books I read and see the
+            statistics of the reading over time.
+          </p>
+          <Link to="/booktracker">
+            <a href="/booktracker">Read more →</a>
           </Link>
         </div>
       </div>
