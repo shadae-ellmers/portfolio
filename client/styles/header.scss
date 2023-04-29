@@ -1,0 +1,39 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 30px;
+  background-color: $darkgreen;
+  color: $grey;
+  background-image: url('https://i.giphy.com/media/RGeqb15dqMYlvkXRFe/giphy.webp');
+  background-position: center;
+  background-size: cover;
+
+h1 {
+  font-size: 40px;
+  @include heavy-font;
+  font-style: italic;
+  text-align: center;
+  align-self: center;
+  color: $lightgreen;
+  text-decoration: underline $lightgreen 10px;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+a {
+  text-align: center;
+  align-self: center;
+  color: $lightgreen;
+  text-decoration: none;
+  font-size: 20px;
+  @include light-font;
+  padding: 40px;
+}
+
+}

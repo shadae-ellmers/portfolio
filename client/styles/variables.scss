@@ -1,0 +1,20 @@
+// variables
+
+// colours
+
+$darkgreen: #1c5c34;
+$lightgreen: #ccb42c;
+$grey: rgb(46, 46, 46);
+
+// mixins
+
+@mixin heavy-font() {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+@mixin light-font() {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 400;
+}

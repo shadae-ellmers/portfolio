@@ -1,11 +1,17 @@
+@import './variables.scss';
+@import './header.scss';
+@import './home.scss';
+@import './projects.scss';
+@import './oneProject.scss';
+
+//fonts
+//font-family: 'IBM Plex Sans', sans-serif;
+
 body {
   position: absolute;
   top: 0;
   left: 0;
   margin: 0;
-  padding: 20px;
-  font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  width: 100vw;
+  background-color: #ccb42c;
 }
-
-
-
