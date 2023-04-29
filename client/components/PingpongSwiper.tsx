@@ -20,6 +20,7 @@ function PingpongSwiper(reactSwipeEl: any) {
             <li>Knex.js</li>
             <li>Jest</li>
             <li>Redux</li>
+            <li>Auth0</li>
           </ul>
           <h4 className="click-text">
             Click the right arrow to flow through the app.
