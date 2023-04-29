@@ -9,6 +9,19 @@ function PingpongSwiper(reactSwipeEl: any) {
         swipeOptions={{ continuous: false }}
         ref={(el) => (reactSwipeEl = el)}
       >
+        <div className="first-slide">
+          <h3>Key tech features:</h3>
+          <ul className="tech-list">
+            <li>React Native</li>
+            <li>TypeScript</li>
+            <li>SQLite</li>
+            <li>Express</li>
+            <li>Node.js</li>
+            <li>Knex.js</li>
+            <li>Jest</li>
+            <li>Redux</li>
+          </ul>
+        </div>
         <div className="one-slide">
           <p>
             This is the first page a user sees when they open the app. This page
