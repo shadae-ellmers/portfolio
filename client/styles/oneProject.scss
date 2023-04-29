@@ -1,0 +1,59 @@
+.pingpong {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+
+  h3 {
+    @include light-font;
+    color: $grey;
+    font-size: 20px;
+    align-self: center;
+  }
+
+  .swiper-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .the-slider {
+    .one-slide {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      margin: 0px;
+      padding: 0px;
+    }
+
+    p {
+      @include light-font;
+      color: $grey;
+      font-size: 20px;
+      width: 300px;
+      align-self: center;
+    }
+
+    .slider-img {
+      width: 200px;
+      align-self: center;
+    }
+
+  }
+
+  .swipe-buttons {
+    align-self: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    button {
+      width: 50px;
+      height: 50px;
+      background-color: $darkgreen;
+      color: $lightgreen;
+      border-radius: 5px;
+      font-size: large;
+      font-weight: bold;
+    }
+  }
+}
