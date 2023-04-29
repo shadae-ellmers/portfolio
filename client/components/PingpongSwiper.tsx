@@ -6,7 +6,7 @@ function PingpongSwiper(reactSwipeEl: any) {
     <div className="swiper-container">
       <ReactSwipe
         className="swiper"
-        swipeOptions={{ continuous: false }}
+        swipeOptions={{ continuous: true }}
         ref={(el) => (reactSwipeEl = el)}
       >
         <div className="first-slide">
@@ -21,6 +21,9 @@ function PingpongSwiper(reactSwipeEl: any) {
             <li>Jest</li>
             <li>Redux</li>
           </ul>
+          <h4 className="click-text">
+            Click the right arrow to flow through the app.
+          </h4>
         </div>
         <div className="one-slide">
           <p>

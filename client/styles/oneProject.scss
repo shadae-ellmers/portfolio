@@ -31,6 +31,15 @@
         padding-left: 20px;
         font-size: 20px;
         color: $grey;
+        list-style-type: square;
+        padding-bottom: 50px;
+      }
+
+      h4 {
+        @include light-font;
+        color: $grey;
+        font-size: 20px;
+        text-align: center;
       }
     }
 
@@ -74,6 +83,14 @@
       border: none;
       margin: 10px;
       padding: 0px;
+    }
+
+    button:hover {
+      background-color: $lightgreen;
+      border-color: $darkgreen;
+      border-width: 2px;
+      border-style: solid;
+      color: $darkgreen;
     }
   }
 }
