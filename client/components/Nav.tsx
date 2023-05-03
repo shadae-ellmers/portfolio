@@ -39,18 +39,6 @@ function Nav() {
       >
         About
       </NavLink>
-      <NavLink
-        to="/contact"
-        style={({ isActive }) =>
-          isActive
-            ? {
-                textDecoration: 'underline',
-              }
-            : {}
-        }
-      >
-        Contact
-      </NavLink>
     </div>
   )
 }
