@@ -2,38 +2,53 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  max-height: 20vh;
   padding-left: 50px;
-  padding-right: 30px;
+  padding-right: 50px;
   background-color: $darkgreen;
   color: $grey;
-  // background-image: url('https://i.giphy.com/media/RGeqb15dqMYlvkXRFe/giphy.webp');
-  // background-position: center;
-  // background-size: cover;
 
-h1 {
-  font-size: 40px;
-  @include heavy-font;
-  font-style: italic;
-  text-align: center;
-  align-self: center;
-  color: $lightgreen;
-  text-decoration: underline $lightgreen 10px;
-}
+  h1 {
+    font-size: 40px;
+    @include heavy-font;
+    font-style: italic;
+    text-align: center;
+    align-self: center;
+    color: $lightgreen;
+    text-decoration: underline $lightgreen 10px;
+    padding-bottom: 10px;
+  }
 
-.nav-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-}
+  .nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
 
-a {
-  text-align: center;
-  align-self: center;
-  color: $lightgreen;
-  text-decoration: none;
-  font-size: 20px;
-  @include light-font;
-  padding: 40px;
-}
+  a {
+    text-align: center;
+    align-self: center;
+    color: $lightgreen;
+    text-decoration: none;
+    font-size: 30px;
+    @include heavy-font;
+    padding: 40px;
+  }
+
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+    h1 {
+      font-size: 30px;
+    }
+
+    a {
+      font-size: 20px;
+    }
+
+  }
+
+  @media only screen and (max-width: 767px) {
+
+  }
 
 }

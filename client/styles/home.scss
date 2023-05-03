@@ -31,4 +31,31 @@
     font-size: 20px;
   }
 
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+    img {
+      width: 50vw;
+    }
+
+    h2 {
+      font-size: 35px;
+    }
+
+  }
+
+  @media only screen and (max-width: 767px) {
+
+    .home {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+
+      img {
+        width: 100vw;
+      }
+
+    }
+
+  }
+
 }
