@@ -28,13 +28,14 @@ function Projects() {
         </Link>
       </div>
       <div className="section">
-        <h3>Book Tracker</h3>
+        <h3>Lost and Found</h3>
         <p>
-          A personal site for me to track the books I read and see the
-          statistics of the reading over time.
+          A &quot;billboard&quot; style website for people to post about their
+          animals that have gone missing, and for people who have found stray
+          animals to post about them.
         </p>
-        <Link to="/booktracker">
-          <a href="/booktracker">Read more →</a>
+        <Link to="/lostandfound">
+          <a href="/lostandfound">Read more →</a>
         </Link>
       </div>
     </div>
