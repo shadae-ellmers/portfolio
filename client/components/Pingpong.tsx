@@ -4,6 +4,7 @@ import PingpongSwiper from './PingpongSwiper'
 function Pingpong() {
   return (
     <div className="pingpong">
+      <h2>PingPong</h2>
       <a
         href="https://github.com/shadae-ellmers/pingpong"
         target="_blank"

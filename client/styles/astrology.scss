@@ -12,14 +12,6 @@
     margin-bottom: 20px;
   }
 
-  h3 {
-    @include light-font;
-    color: $grey;
-    font-size: 20px;
-    align-self: center;
-    margin-bottom: 10px;
-  }
-
   a {
     @include light-font;
     color: $grey;
@@ -39,25 +31,30 @@
   .the-slider {
     .first-slide {
       text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
       margin: 0px;
       padding: 0px;
 
-      .tech-list {
+      p {
+        max-width: 600px;
+      }
+
+      ul {
         @include light-font;
         display: inline-block;
+        align-self: center;
         text-align: left;
-        padding-left: 20px;
         font-size: 20px;
         color: $grey;
         list-style-type: square;
         padding-bottom: 40px;
-      }
-
-      h4 {
-        @include light-font;
-        color: $grey;
-        font-size: 20px;
-        text-align: center;
+        -webkit-columns: 2;
+        -moz-columns: 2;
+        columns: 2;
+        list-style-position: inside;
+        max-width: 600px;
       }
     }
 
@@ -73,17 +70,29 @@
       @include light-font;
       color: $grey;
       font-size: 20px;
-      max-width: 80vw;
+      max-width: 700px;
       align-self: center;
       text-align: center;
     }
 
     .slider-img {
-      padding-left: 10px;
-      max-width: 600px;
+      max-width: 700px;
       align-self: center;
     }
 
+    .last-slide {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: 0px;
+      padding: 0px;
+
+      p {
+        text-align: center;
+        padding: 10px;
+        max-width: 600px;
+      }
+    }
   }
 
   .swipe-buttons {

@@ -10,8 +10,12 @@ function PingpongSwiper(reactSwipeEl: any) {
         ref={(el) => (reactSwipeEl = el)}
       >
         <div className="first-slide">
-          <h3>Key tech features:</h3>
-          <ul className="tech-list">
+          <p>
+            Interpret your natal birth chart and add your friends charts to
+            compare.
+          </p>
+          <p>Key tech features:</p>
+          <ul>
             <li>React</li>
             <li>TypeScript</li>
             <li>SQLite</li>
@@ -21,9 +25,7 @@ function PingpongSwiper(reactSwipeEl: any) {
             <li>Redux</li>
             <li>Auth0</li>
           </ul>
-          <h4 className="click-text">
-            Click the arrows below to flow through the app.
-          </h4>
+          <p>Click the arrows below to flow through the app.</p>
         </div>
         <div className="one-slide">
           <p>
@@ -51,8 +53,8 @@ function PingpongSwiper(reactSwipeEl: any) {
         </div>
         <div className="one-slide">
           <p>
-            This page gives information on astrology and how to understand your
-            birth chart.
+            This page gives information on astrology and can provide the user
+            with a better understanding of their birth chart.
           </p>
           <img
             className="slider-img"
@@ -60,7 +62,7 @@ function PingpongSwiper(reactSwipeEl: any) {
             alt="ping active page"
           />
         </div>
-        <div className="one-slide">
+        <div className="last-slide">
           <p>
             I made this website as I wanted to practise code using CRUD (create,
             read, update, delete) operations. It then become my website for
@@ -68,14 +70,14 @@ function PingpongSwiper(reactSwipeEl: any) {
             authorisation and Redux.
           </p>
           <p>
-            Reflecting on this project, to improve I want to use authentication
-            to have users only see the charts they have created. I also want to
-            use the database to generate information based on the user&apos;s
-            input for the chart.
+            Reflecting on this project, an improvement would be to use
+            authentication to have users only see the charts they have created.
+            I also want to use the database to generate information based on the
+            user&apos;s input for the chart.
           </p>
           <p>
             This project taught me how data can get complicated quickly, and
-            provided me stepping stones for implementing new tech.
+            provided me stepping stones for implementing and learning new tech.
           </p>
         </div>
       </ReactSwipe>

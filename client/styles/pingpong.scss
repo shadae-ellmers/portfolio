@@ -3,6 +3,14 @@
   flex-direction: column;
   justify-content: center;
 
+  h2 {
+    @include heavy-font;
+    color: $darkgreen;
+    font-size: 50px;
+    align-self: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
 
   h3 {
     @include light-font;
@@ -31,25 +39,35 @@
   .the-slider {
     .first-slide {
       text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
       margin: 0px;
       padding: 0px;
 
-      .tech-list {
+      .first-slide-text {
+        text-align: center;
+        padding: 0;
+        max-width: 600px;
         @include light-font;
+        color: $grey;
+        font-size: 20px;
+      }
+
+      ul {
+        @include light-font;
+        align-self: center;
         display: inline-block;
         text-align: left;
-        padding-left: 20px;
         font-size: 20px;
         color: $grey;
         list-style-type: square;
         padding-bottom: 40px;
-      }
-
-      h4 {
-        @include light-font;
-        color: $grey;
-        font-size: 20px;
-        text-align: center;
+        -webkit-columns: 2;
+        -moz-columns: 2;
+        columns: 2;
+        list-style-position: inside;
+        max-width: 700px;
       }
     }
 
@@ -65,15 +83,29 @@
       @include light-font;
       color: $grey;
       font-size: 20px;
-      width: 300px;
+      max-width: 300px;
       align-self: center;
       padding-right: 10px;
       text-align: right;
     }
 
+    .last-slide {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: 0px;
+      padding: 0px;
+
+      p {
+        text-align: center;
+        padding: 10px;
+        max-width: 600px;
+      }
+    }
+
     .slider-img {
       padding-left: 10px;
-      width: 210px;
+      width: 250px;
       align-self: center;
     }
 
@@ -82,6 +114,7 @@
   .swipe-buttons {
     align-self: center;
     padding-top: 10px;
+    padding-bottom: 20px;
 
     button {
       width: 50px;

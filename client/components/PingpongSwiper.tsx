@@ -10,8 +10,13 @@ function PingpongSwiper(reactSwipeEl: any) {
         ref={(el) => (reactSwipeEl = el)}
       >
         <div className="first-slide">
-          <h3>Key tech features:</h3>
-          <ul className="tech-list">
+          <p className="first-slide-text">
+            Send a notification to your friends when you want to spontaneously
+            hang out - a simple pager app to kill your group chat and connect in
+            person.
+          </p>
+          <p>Key tech features:</p>
+          <ul>
             <li>React Native</li>
             <li>TypeScript</li>
             <li>SQLite</li>
@@ -22,9 +27,9 @@ function PingpongSwiper(reactSwipeEl: any) {
             <li>Redux</li>
             <li>Auth0</li>
           </ul>
-          <h4 className="click-text">
-            Click the right arrow to flow through the app.
-          </h4>
+          <p className="first-slide-text">
+            Click the arrows below to flow through the app.
+          </p>
         </div>
         <div className="one-slide">
           <p>
@@ -39,9 +44,10 @@ function PingpongSwiper(reactSwipeEl: any) {
         </div>
         <div className="one-slide">
           <p>
-            This page is where the user can send a `ping` to their friends. The
-            user can choose an activity prompt, enter a location, then press the
-            pingpong ball to send the ping out to others on their friends list.
+            This page is where the user can send a &apos;ping&apos; to their
+            friends. The user can choose an activity prompt, enter a location,
+            then press the pingpong ball to send the ping out to others on their
+            friends list.
           </p>
           <img
             className="slider-img"
@@ -51,8 +57,9 @@ function PingpongSwiper(reactSwipeEl: any) {
         </div>
         <div className="one-slide">
           <p>
-            This is what displays on the `ping` page when the user has an active
-            ping. This can be undone by pressing the pingpong ball again.
+            This is what displays on the &apos;ping&apos; page when the user has
+            an active ping. This can be undone by pressing the pingpong ball
+            again.
           </p>
           <img
             className="slider-img"
@@ -101,6 +108,25 @@ function PingpongSwiper(reactSwipeEl: any) {
             src="../../images/pingpong/7-tutorial.png"
             alt="tutorial page"
           />
+        </div>
+        <div className="last-slide">
+          <p>
+            This project was created as a final group project for Dev Academy. I
+            was drawn to the idea of this app as I find the planning behind
+            socialising tedious, especially on social media. The creation of the
+            app was a chance for me to push my limits and challenge myself with
+            new tech.
+          </p>
+          <p>
+            Reflecting on this project, an improvement would be to have push
+            notifications, so that a user could see if a friend had sent a ping
+            without going onto the app to refresh.
+          </p>
+          <p>
+            This project taught me a lot about how quickly I can learn new
+            skills. I also learnt the power that soft skills can have on
+            creating a great and productive team dynamic.
+          </p>
         </div>
       </ReactSwipe>
       <div className="swipe-buttons">
