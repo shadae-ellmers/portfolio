@@ -5,7 +5,9 @@ function Home() {
     <div className="home">
       <div className="text">
         <h2>Hello 👋</h2>
-        <p>I&apos;m Shadae, a Full Stack Developer based in Pōneke, Aoteroa.</p>
+        <p>
+          I&apos;m Shadae, a Full Stack Web Developer based in Pōneke, Aoteroa.
+        </p>
         <div>
           <Link to="/projects">Projects →</Link>
         </div>
