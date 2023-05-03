@@ -1,0 +1,114 @@
+.astrology {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  h2 {
+    @include heavy-font;
+    color: $darkgreen;
+    font-size: 50px;
+    align-self: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  h3 {
+    @include light-font;
+    color: $grey;
+    font-size: 20px;
+    align-self: center;
+    margin-bottom: 10px;
+  }
+
+  a {
+    @include light-font;
+    color: $grey;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+  }
+
+  .swiper-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .the-slider {
+    .first-slide {
+      text-align: center;
+      margin: 0px;
+      padding: 0px;
+
+      .tech-list {
+        @include light-font;
+        display: inline-block;
+        text-align: left;
+        padding-left: 20px;
+        font-size: 20px;
+        color: $grey;
+        list-style-type: square;
+        padding-bottom: 40px;
+      }
+
+      h4 {
+        @include light-font;
+        color: $grey;
+        font-size: 20px;
+        text-align: center;
+      }
+    }
+
+    .one-slide {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: 0px;
+      padding: 0px;
+    }
+
+    p {
+      @include light-font;
+      color: $grey;
+      font-size: 20px;
+      max-width: 80vw;
+      align-self: center;
+      text-align: center;
+    }
+
+    .slider-img {
+      padding-left: 10px;
+      max-width: 600px;
+      align-self: center;
+    }
+
+  }
+
+  .swipe-buttons {
+    align-self: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+
+    button {
+      width: 50px;
+      height: 50px;
+      background-color: $darkgreen;
+      color: $lightgreen;
+      font-size: 35px;
+      text-align: center;
+      border: none;
+      margin: 10px;
+      padding: 0px;
+    }
+
+    button:hover {
+      background-color: $lightgreen;
+      border-color: $darkgreen;
+      border-width: 2px;
+      border-style: solid;
+      color: $darkgreen;
+    }
+  }
+}
