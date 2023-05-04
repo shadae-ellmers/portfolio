@@ -1,0 +1,123 @@
+.lostandfound {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  h2 {
+    @include heavy-font;
+    color: $darkgreen;
+    font-size: 50px;
+    align-self: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  a {
+    @include light-font;
+    color: $grey;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+  }
+
+  .swiper-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .the-slider {
+    .first-slide {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: 0px;
+      padding: 0px;
+
+      p {
+        max-width: 600px;
+      }
+
+      ul {
+        @include light-font;
+        display: inline-block;
+        align-self: center;
+        text-align: left;
+        font-size: 20px;
+        color: $grey;
+        list-style-type: square;
+        padding-bottom: 40px;
+        -webkit-columns: 2;
+        -moz-columns: 2;
+        columns: 2;
+        list-style-position: inside;
+        max-width: 600px;
+      }
+    }
+
+    .one-slide {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: 0px;
+      padding: 0px;
+    }
+
+    p {
+      @include light-font;
+      color: $grey;
+      font-size: 20px;
+      max-width: 700px;
+      align-self: center;
+      text-align: center;
+    }
+
+    .slider-img {
+      max-width: 700px;
+      align-self: center;
+    }
+
+    .last-slide {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: 0px;
+      padding: 0px;
+
+      p {
+        text-align: center;
+        padding: 10px;
+        max-width: 600px;
+      }
+    }
+  }
+
+  .swipe-buttons {
+    align-self: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+
+    button {
+      width: 50px;
+      height: 50px;
+      background-color: $darkgreen;
+      color: $lightgreen;
+      font-size: 35px;
+      text-align: center;
+      border: none;
+      margin: 10px;
+      padding: 0px;
+    }
+
+    button:hover {
+      background-color: $lightgreen;
+      border-color: $darkgreen;
+      border-width: 2px;
+      border-style: solid;
+      color: $darkgreen;
+    }
+  }
+}

@@ -1,8 +1,20 @@
+import LafSwiper from './LafSwiper'
+
 function LostAndFound() {
   return (
-    <>
-      <p>test</p>
-    </>
+    <div className="lostandfound">
+      <h2>Lost and Found</h2>
+      <a
+        href="https://github.com/shadae-ellmers/lost-and-found"
+        target="_blank"
+        rel="noreferrer noopener"
+      >
+        View this project on Github →
+      </a>
+      <div className="the-slider">
+        <LafSwiper />
+      </div>
+    </div>
   )
 }
 
