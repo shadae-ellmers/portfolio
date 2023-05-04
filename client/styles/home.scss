@@ -2,14 +2,12 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  padding: 20px;
   background-color: #ccb42c;
-  overflow: hidden;
 
   .text {
     text-align: left;
     align-self: center;
-    padding-bottom: 20px,
+    padding: 20px;
   }
 
   h2 {
@@ -31,31 +29,48 @@
     font-size: 20px;
   }
 
+  img {
+    padding: 10px;
+    align-self: center;
+  }
+
   @media only screen and (min-width: 768px) and (max-width: 1023px) {
 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
     img {
-      width: 50vw;
+      width: 70vw;
     }
 
     h2 {
-      font-size: 35px;
+      font-size: 40px;
     }
 
+    p {
+      font-size: 30px;
+    }
+
+    a {
+      font-size: 30px;
+      
+    }
   }
 
   @media only screen and (max-width: 767px) {
 
-    .home {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
-      img {
-        width: 100vw;
-      }
-
+    img {
+      width: 90vw;
     }
-
   }
-
+  
 }
+
+
+
+
