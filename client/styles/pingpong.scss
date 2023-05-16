@@ -143,7 +143,6 @@
 
         .first-slide-text {
           padding: 0;
-          // width: 80vw;
           font-size: 30px;
         }
 
@@ -179,7 +178,7 @@
   @media only screen and (max-width: 767px) {
 
     a {
-      font-size: 30px;
+      font-size: 20px;
     }
 
     .the-slider {
@@ -190,15 +189,15 @@
           text-align: left;
           padding: 0;
           width: 80vw;
-          font-size: 30px;
+          font-size: 20px;
         }
 
         p {
-          font-size: 30px;
+          font-size: 20px;
         }
 
         ul {
-          font-size: 25px;
+          font-size: 20px;
         }
 
       }
@@ -211,10 +210,20 @@
         text-align: left;
         padding: 0;
         width: 80vw;
+        font-size: 20px;
       }
 
       .slider-img {
         width: 80vw; 
+        padding: 0;
+      }
+
+      .last-slide {
+
+        p {
+          width: 80vw;
+          font-size: 20px;
+        }
       }
     }
 
